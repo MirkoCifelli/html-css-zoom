@@ -18,3 +18,46 @@ html {
     max-width: 1200px;
     margin: 0 auto;
 }
+.font-green{
+    color: rgb(20, 188, 20);
+}
+/* footer */
+footer{
+    height: 80px;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+footer>section{
+    display: flex;
+
+}
+
+
+footer section.footer-end button{
+    height: 100%;
+    background-color: #4a4a4a;
+    color: red;
+    font-size: 1.1em;
+    padding: 0 1.1em;
+    border: none;
+}
+
+footer div.icon{
+    display: flex;
+    flex-direction: column;
+    padding: 1.2em 1em;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 0.8em;
+}
+
+footer div.icon i{
+    font-size: 2.1em;
+}
+
+footer div.icon i.fa-angle-up{
+    font-size: 1.1em;
+}
