@@ -21,6 +21,75 @@ html {
 .font-green{
     color: rgb(20, 188, 20);
 }
+
+/* header */
+header{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+section.buttons{
+    text-align: end;
+    height: 65px;
+}
+section.buttons button{
+    border: none;
+    border-radius: 5px;
+    background-color: #4a4a4a;
+    color: white;
+    padding: 0.7em;
+    margin-top: 0.4em;
+}
+
+
+/* main */
+main{
+    height: calc(100vh -80px);
+    background-color: black;
+    overflow: auto;
+    margin-top: 50px;
+}
+.photo{
+    position: relative;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.cameras{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cameras > * {
+    width: 250px;
+    height: 100px;
+}
+.photo img{
+    width: 100;
+    display: block;
+}
+div .info{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer */
 footer{
     height: 80px;
@@ -29,7 +98,7 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-footer>section{
+footer > section{
     display: flex;
 
 }
